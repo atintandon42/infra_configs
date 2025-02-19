@@ -11,7 +11,7 @@ Assumptions for this use case:
 
 Architecture
 
-![alt text](resources/image.png)
+<img src="resources/image.png" width="400" />
 
 Sequence of tasks:
 1. Scheduled job in Eventbridge trigger lambda job ‘ingest-weather-daily’ on daily schedule
@@ -22,8 +22,7 @@ Sequence of tasks:
 
 Future Architecture
 
-![alt text](resources/image-1.png)
-
+<img src="resources/image-1.png" width="400" />
 
 Improvements:
 1. SQS as a buffer between API server and Lambda
